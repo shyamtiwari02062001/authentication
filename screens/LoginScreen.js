@@ -17,8 +17,8 @@ function LoginScreen() {
         'Authentication Failed !',
         'Could not log you in. Please check your credential',
       );
+      setLoading(false);
     }
-    setLoading(false);
   };
   if (loading) {
     return <LoadingOverlay message={'Creatng user ....'} />;
