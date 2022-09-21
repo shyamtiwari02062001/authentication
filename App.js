@@ -24,7 +24,7 @@ function AuthStack() {
 }
 
 function AuthenticatedStack() {
-  const authCTX=useContext(AuthContext);
+  const authCTX = useContext(AuthContext);
   return (
     <Stack.Navigator
       screenOptions={{
